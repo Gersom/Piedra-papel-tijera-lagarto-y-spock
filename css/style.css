@@ -1,0 +1,39 @@
+@charset "utf-8";
+@font-face{
+   font-family:"OCR-A BT";
+   src:url("../font/OCR-A BT.ttf") format("truetype");
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: #222;
+	font-family: "OCR-A BT";
+	color: #eee;
+	font-size: 18px;
+	text-align: center;
+}
+h1{
+	margin: 10px 0;
+}
+#inicio img{
+	width: 30px;
+}
+li,a{
+	display: block;
+}
+a{
+	background: #555;
+	color: #eee;
+	font-size: 20px;
+	margin: 10px auto;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+}
+
+a:hover{
+	background: rgb(34, 147, 204);
+}
